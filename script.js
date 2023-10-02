@@ -64,7 +64,8 @@ function handleNextButton() {
 // Function to display the user's score
 function showScore() {
   resetState();
-  questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
+  let percent = (score / 5) * 100;
+  questionElement.innerHTML = `You scored ${percent}%`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
   nextButton.removeEventListener("click", handleNextButton);
