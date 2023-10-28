@@ -22,10 +22,10 @@ const questions = [
     {
         question: "We elect a President for how many years?", 
         answers : [
-            {text:"Eight (8)", correct: false},
-            {text:"Ten (10)", correct: false},
-            {text:"Four (4)", correct: true},
-            {text:"Two (2)", correct: false}
+            {text:"8", correct: false},
+            {text:"10", correct: false},
+            {text:"4", correct: true},
+            {text:"2", correct: false}
 
         ]
     },
@@ -176,6 +176,76 @@ const questions = [
             {text:"California", correct: true},
             {text:"Florida", correct: false},
             {text:"Mississipi", correct: false}
+
+        ]
+    },
+    {
+        question: "Who does a US senator represent?", 
+        answers : [
+            {text:"All people of the country", correct: false},
+            {text:"All people of the county", correct: false},
+            {text:"All people of the state", correct: true},
+            {text:"All people of the house of representatives", correct: false}
+
+        ]
+    },
+    {
+        question: "Why do some states have more representatives than others?", 
+        answers : [
+            {text:"Due to the state's population", correct: true},
+            {text:"Due to the state's size", correct: false},
+            {text:"Due to the states's size ", correct: false},
+            {text:"Mississipi", correct: false}
+
+        ]
+    },
+    {
+        question: "What do we show loyalty to when we say the Pledge of Allegiance?", 
+        answers : [
+            {text:"The United States", correct: true},
+            {text:"Your state", correct: false},
+            {text:"The President", correct: false},
+            {text:"The Congress", correct: false}
+
+        ]
+    },
+    {
+        question: "All of the following are promises made when you become a citizen, except: ", 
+        answers : [
+            {text:"Give up Loyalty to other countries", correct: false},
+            {text:"Defend the Constitution and laws of the United States", correct: false},
+            {text:"Obey the laws of the United States", correct: false},
+            {text:"To vote in every election", correct: true}
+
+        ]
+    },
+    {
+        question: "What is the minimum age requirement to vote for president?", 
+        answers : [
+            {text:"16", correct: false},
+            {text:"18", correct: true},
+            {text:"21", correct: false},
+            {text:"25", correct: false}
+
+        ]
+    },
+    {
+        question: "Who lived in America before the Europeans arrived?", 
+        answers : [
+            {text:"Native Americans", correct: false},
+            {text:"Romans", correct: true},
+            {text:"The English", correct: false},
+            {text:"South Africans", correct: false}
+
+        ]
+    },
+    {
+        question: "During the Cold War, what was the main concern for the United States?", 
+        answers : [
+            {text:"Capitalism", correct: false},
+            {text:"Communism", correct: true},
+            {text:"Democracy", correct: false},
+            {text:"Freedom of Speech", correct: false}
 
         ]
     },
